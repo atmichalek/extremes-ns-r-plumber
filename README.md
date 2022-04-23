@@ -15,7 +15,7 @@ Execute these commands to get started:
 
 ```bash
 # get the sources
-git clone https://github.com/virtualstaticvoid/heroku-plumber-app.git
+git clone https://github.com/atmichalek/heroku-plumber-app.git
 cd heroku-plumber-app
 
 # optionally, reinitialize git
