@@ -11,10 +11,8 @@ function(input,model){
   
   #Read in JSON data
   data<- fromJSON(input)
-  print(data)
-  n<-length(data)
-  yrs<-data[1:(n/2)]
-  flow<-data[(n/2+1):n]
+  yrs<-data[,1]
+  flow<-data[,2]
   data <- data.frame(cbind(yrs,flow))
   colnames(data) <- c("yrs","flow")
  
