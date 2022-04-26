@@ -7,4 +7,4 @@ API to run nonstationary distribution fit of annual flood peaks and return quant
 #Plumber template taken from https://github.com/virtualstaticvoid/heroku-plumber-app/tree/main
 
 <h2>Deploy to heroku</h2>
-#to deploy: https://heroku.com/deploy?template=https://github.com/atmichalek/gamlss-r-plumber/tree/main
+#to deploy: https://heroku.com/deploy?template=https://github.com/atmichalek/extremes_ns_r_plumber/tree/main
