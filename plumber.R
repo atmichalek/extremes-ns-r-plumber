@@ -5,12 +5,6 @@
 
 #* @preempt __first__
 
-#* @filter cors
-cors <- function(res) {
-  res$setHeader("Access-Control-Allow-Origin", "*")
-  plumber::forward()
-}
-
 #* param input json of data
 #* param model which distribution
 #* @get /nsfit
