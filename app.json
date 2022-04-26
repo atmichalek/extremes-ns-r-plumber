@@ -1,7 +1,7 @@
 {
   "name": "heroku-plumber-app",
   "stack": "heroku-20",
-  "description": "This is an example Plumber application, which uses heroku-buildpack-r for Heroku.",
+  "description": "This is a Plumber application that fits annual maxima discharge to distributions in the extRemes R packages, which uses heroku-buildpack-r for Heroku.",
   "keywords": [
     "r",
     "plumber"
