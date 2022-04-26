@@ -1,10 +1,8 @@
 # plumber.R
-#* @apiTitle extRemes NSFIT
-#* @apiDescription An API to send a JSON array of year and data value to fit the extRemes distributions of Gumbel, GEV, and exponential varying on time. Gumbel and GEV sets the location parameter varying linearly on time. Exponetial sets the scale parameter varying on time. The output returned is the following per year: years, probability quantiles, AIC, and the distribution parameters "mu0","mu1","sigma0","sigma1","shape".   
-#* Return the exceedance discharge of simulations
 
 #* @preempt __first__
 
+#* Return the exceedance discharge of simulations
 #* param input json of data
 #* param model which distribution
 #* @get /nsfit
