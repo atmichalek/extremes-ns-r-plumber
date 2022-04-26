@@ -2,6 +2,12 @@
 #* @apiTitle extRemes NSFIT
 #* @apiDescription An API to send a JSON array of year and data value to fit the extRemes distributions of Gumbel, GEV, and exponential varying on time. Gumbel and GEV sets the location parameter varying linearly on time. Exponetial sets the scale parameter varying on time. The output returned is the following per year: years, probability quantiles, AIC, and the distribution parameters "mu0","mu1","sigma0","sigma1","shape".
 
+#* @filter cors
+cors <- function(res) {
+  res$setHeader("Access-Control-Allow-Origin", "*")
+  plumber::forward()
+}
+
 #* @preempt __first__
 #* @get /
 function(req, res) {
